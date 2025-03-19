@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile First Approve</title>
+    <style>
+      h1 {
+        font-size: 0.9rem;
+      }
+
+      @media (min-width: 576px) {
+        h1 {
+          font-size: 1.9rem;
+          background: red;
+        }
+      }
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 2.9rem;
+          background: blue;
+        }
+        a {
+          display: none;
+        }
+      }
+      @media (min-width: 992px) {
+        h1 {
+          font-size: 3.9rem;
+          background: green;
+        }
+      }
+      @media (min-width: 1200px) {
+        h1 {
+          font-size: 4.9rem;
+          background: yellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+    <a href="">Google</a>
+  </body>
+</html>
