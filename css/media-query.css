@@ -39,11 +39,21 @@
           margin-bottom: 15px;
           margin-top: 15px;
      }
-     .banner h1{
-          font-size:1.8rem;
+
+     .banner {
+          padding: 1rem;
      }
-     .banner img{
-          width:300px;
+
+     .banner h1 {
+          font-size: 1.8rem;
+     }
+
+     .banner img {
+          width: 300px;
+     }
+
+     #ads-section {
+          gap: 1.2rem;
      }
 
 }
