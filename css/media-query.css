@@ -39,6 +39,11 @@
           margin-bottom: 15px;
           margin-top: 15px;
      }
-
+     .banner h1{
+          font-size:1.8rem;
+     }
+     .banner img{
+          width:300px;
+     }
 
 }
